@@ -1,0 +1,12 @@
+#contenedor {
+  width: 250px;
+  height: 250px;
+  background-color: cornflowerblue;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+#codeHex{
+    
+    padding-top: 10px;
+}
