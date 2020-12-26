@@ -15,10 +15,22 @@ function Generar() {
 
     let codigo = document.getElementById('codeHex');
 
-    codigo.innerHTML = ('Code: ' + color);
+    codigo.innerHTML = (color);  // 'Code: ' + color
+
+    // Libreria clipboardjs.com
+    var clipboard = new ClipboardJS('#btn');
+
+    clipboard.on('success', function (e) {
+        console.log(e);
+    });
+
+    clipboard.on('error', function (e) {
+        console.log(e);
+    });
 
 
 }
+
 
 
 

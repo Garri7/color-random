@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilos.css">
-    <title>Generador de Colores Hexadecimales Aleatorios </title>
-</head>
-
-<body>
-    <div id="contenedor">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/estilos.css">
+        <script src="/js/clipboard.min.js"></script>
+        <script src="/js/app.js"></script>
+        <title>Generador de Colores Hexadecimales Aleatorios </title>
+    </head>
+    
+    <body>
+        <div id="contenedor">
         
-    </div>
-
-    <button onclick="Generar();">Generar</button>
-    <div id="codeHex"></div>
-
-    <script src="/js/app.js"></script>
+        </div>
+        <textarea id="codeHex"></textarea><br/>
+        <button id="btn" onclick="Generar();">Generar</button>
+        <button id="btn" data-clipboard-action="copy" data-clipboard-target="#codeHex">Copiar</button>
+        
+        
+        
+    
 </body>
 
 </html>
