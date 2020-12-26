@@ -3,4 +3,4 @@
 
 Obtenga un color aleatorio y su código hexadecimal
 
-![Alt text](https://github.com/Garri7/color-random/blob/master/img/color_random_hex_javascript.JPG?raw=true "Example")
+![Alt text](https://raw.githubusercontent.com/Garri7/color-random/master/image/Captura%20de%20pantalla%20de%202020-12-26%2020-14-55.png)
